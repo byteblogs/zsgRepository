@@ -1,0 +1,17 @@
+/* pages/setting/setting.wxss */
+page{
+  background: white;
+}
+.page{
+   background: white;
+}
+.title{
+
+   color: green;
+   font-size: 50rpx;
+   margin: 10% 50% 0 50%;
+   background: white;
+}
+.btnClass{
+  margin-top: 30%;
+}

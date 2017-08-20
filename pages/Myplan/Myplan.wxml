@@ -1,0 +1,56 @@
+<view wx:for="{{listData.data}}">
+  <view class="list_page">
+    <view class="list_items">
+      <view class="name">
+          {{item.beneficiaryName}}
+      </view>
+      <view class="money">
+        余额{{item.balance}}元
+      </view>
+    </view>
+    <view class="list_item">
+      <view class="item">
+        <view class="left">
+          互助计划
+        </view>
+        <view class="right">
+          {{item.mutualAidPlanName}}
+        </view>
+      </view>
+       <view class="item">
+        <view class="left">
+         最高获捐
+        </view>
+        <view class="right">
+         {{item.maxCompensation}}
+        </view>
+      </view>
+      <view class="item">
+        <view class="left">
+         当前状态
+        </view>
+        <view class="right">
+          {{item.status}}
+        </view>
+      </view>
+      <view class="item">
+        <view class="left">
+        身份证号
+        </view>
+        <view class="right">
+          {{item.beneficiaryIdentityNo}}
+        </view>
+      </view>
+      <view class="item">
+        <view class="left">
+         加入日期
+        </view>
+        <view class="right">
+          {{item.applyDate}}
+        </view>
+      </view>
+    </view>
+
+  </view>
+  
+</view>

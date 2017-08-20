@@ -1,0 +1,45 @@
+<view class="page">
+<view class="page_list">
+   <view class="title">
+     {{showdata.list1.title}}
+
+       <view class="subtitle">
+         {{showdata.list1.subtitle}}
+       </view>
+   </view>
+
+   <view class="list_item">
+      <view class="item_title">
+         
+      </view>
+      <view class="item_con">
+         {{showdata.list1.item_con}}
+      </view>
+   </view>
+
+</view>
+ <view class="page_list">
+   <view class="title">
+     {{showdata.title}}
+   </view>
+   <view class="list_item" wx:for="{{showdata.list2}}" wx:key="id">
+      <view class="item_title">
+        {{item.item_title}}
+      </view>
+      <view class="item_con">
+        {{item.item_con}}     
+      </view>
+   </view>
+
+ <view class="page_list">
+         <view class="bottomClass">
+            <view class="leftbtn">
+              <button bindtap="no_suit_bind" type="default" class="nosuit">不符合</button>
+            </view>
+            <view class="rightbtn">
+              <button bindtap="suit_bind" type="warn" class="suit">符合条件,继续</button>
+            </view>
+          </view>  
+   </view>
+</view> 
+</view>

@@ -1,0 +1,84 @@
+<view class="page">
+   <view class="top">
+       <image src="{{showdata.path}}" mode="aspectFill"></image>
+   </view>
+   <view class="joinData">
+      <view class="joinData_cont">
+        <view class="showNum">{{showdata.joinData.showNum}}</view>
+        <view class="showPhoto">{{showdata.joinData.showPhoto}}</view>
+      </view>
+   </view>
+
+   <!--test  -->
+  <view class="index-bd">
+    <view class="kind-list">
+      <block wx:for-items="{{list}}" wx:key="{{item.id}}">
+        <view class="kind-list-item">
+          <view id="{{item.id}}" class="kind-list-item-hd {{item.open ? 'kind-list-item-hd-show' : ''}}" bindtap="kindToggle">
+            <view class="kind-list-text">{{item.left}}</view>
+            <view class="kind-list-text_right">{{item.right}}</view>
+            <block wx:if="{{item.open}}">
+              <image class="kind-list-img" src="../images/up.png"></image>
+            </block>
+             <block wx:else>
+              <image class="kind-list-img" src="../images/down.png"></image>
+            </block>
+          </view>
+          <view class="kind-list-item-bd {{item.open ? 'kind-list-item-bd-show' : ''}}">
+            <view class="navigator-box {{item.open ? 'navigator-box-show' : ''}}">
+              <block wx:for-items="{{item.contents}}" wx:for-item="cont" wx:key="*item">
+              <view class="list_cont">
+                   <!-- <text>{{cont}}</text> -->
+                   {{cont}}
+              </view>
+                
+              </block>
+            </view>
+          </view>
+        </view>
+      </block>
+    </view>
+  </view>
+      
+    <!--test  -->
+    <view class="intro">服务保障</view>
+      <view class="top">
+        <image src="{{showdata.pathBZ}}" mode="aspectFill"></image>
+      </view>
+
+     <view class="intro">常见问题</view>
+  <view class="often_ques">
+    <view class="kind-list">
+      <block wx:for-items="{{quesList}}" wx:key="{{item.id}}">
+        <view class="kind-list-item">
+          <view id="{{item.id}}" class="kind-list-item-hd {{item.open ? 'kind-list-item-hd-show' : ''}}" bindtap="kindToggleques">
+            <view class="kind-list-text">{{item.left}}</view>
+            <view class="kind-list-text_right">{{item.right}}</view>
+            <block wx:if="{{item.open}}">
+              <image class="kind-list-img" src="../images/up.png"></image>
+            </block>
+             <block wx:else>
+              <image class="kind-list-img" src="../images/down.png"></image>
+            </block>
+          </view>
+          <view class="kind-list-item-bd {{item.open ? 'kind-list-item-bd-show' : ''}}">
+            <view class="navigator-box {{item.open ? 'navigator-box-show' : ''}}">
+              <block wx:for-items="{{item.contents}}" wx:for-item="cont" wx:key="*item">
+              <view class="list_cont">
+                   <text>{{cont}}</text>
+              </view>
+              </block>
+            </view>
+          </view>
+        </view>
+      </block>
+    </view>
+  </view>
+   <view class="intro">计划条款</view>
+   <view class="planTK" bindtap="showPlanTKbind">
+      <view class="cont1">{{showdata.provison}}</view>
+        <!-- <view class="cont2">《少年健康互助计划条款》</view>
+          <view class="cont3">《健康要求》</view> -->
+   </view>
+    <button bindtap="add_plan_bind" type="primary" class="address-add">免费加入</button>
+</view>

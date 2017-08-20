@@ -1,0 +1,30 @@
+<view class="page">
+<view class="page_list">
+   <view class="title">
+   
+     健康要求
+   </view>
+   <view class="list_item">
+      <view class="item_title">
+         一、过去三年内，未曾因疾病进行手术治疗，或连续住院≧15天,或服药≧3个月;
+      </view>
+      <view class="item_con"></view>
+   </view>
+   <view class="list_item">
+      <view class="item_title">
+        二、目前或既往未患有以下重大疾病:
+      </view>
+      <view class="item_con">
+          肿瘤（包括恶性肿瘤、脑部肿瘤、白血病,但已经确诊为良性息肉、囊肿、结节和赘生物且已经治愈的外）、病理学描述为癌前病变的肿瘤、脑血管疾病、冠心病、心肌病、主动脉、急/慢性肾炎、慢性阻塞性肺疾病、支气管哮喘。
+      </view>
+   </view>
+   <view class="list_item">
+      <view class="item_title">
+        三、过去六个月，未曾出现下列不明原因的症状或不适:
+      </view>
+      <view class="item_con">
+          体重减轻超过5公斤（非健身或减肥原因）、不明原因的出血点或者淤块、反复鼻或牙龈出血,身体出现肿块、包块、结节、咯血、便血、血尿、淋巴结肿大，经检查显示需要进一步的检查、治疗或随访。
+      </view>
+   </view>
+</view>
+</view>

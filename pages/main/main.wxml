@@ -1,0 +1,49 @@
+<view class="page">
+   <view class="top">
+       <image src="{{showdata.path}}" mode="aspectFill"></image>
+   </view>
+   <view class="sub">
+      <view class="sub_title">
+          <view class="sub_image">
+             <image src="{{showdata.subtitle.path}}" mode="aspectFill"></image>
+          </view>
+          <view class="sub_content" >
+             <view wx:for="{{showdata.subtitle.sub_content}}">{{item}}</view>
+             <!-- <view>互助包含胃癌、肝癌等各种癌症</view>
+             <view >9元加入互助计划一人患病，众人分摊</view>
+             <view>一人患病,众人分摊</view> -->
+          </view>
+         
+      </view>
+   </view>
+
+
+      <!--list-->
+  <view class="nav_section" wx:for="{{showdata.list}}" wx:key="id">
+            <view class="nav_section_items" >
+                <!--image-->
+                <view class="section_image" bindtap="{{item.bindTap}}" data-aid="">
+                  <block >
+                      <image src="{{item.path}}" mode="aspectFill"></image>
+                  </block>
+                </view>
+                <!--content-->
+                <view class="section_cont" bindtap="{{item.bindTap}}" data-aid="">
+                    <view class="section_cont_sub">
+                        <text>{{item.section_cont_sub}}</text>
+                    </view>
+                    <view class="section_cont_price">{{item.section_cont_price}}</view>
+                    <view class="section_cont_kind">{{item.section_cont_kind}}</view>
+                    <view >{{item.range}}</view>
+                </view>
+                <!--book-->
+                <view class="section_book" bindtap="{{item.bindTap}}" data-aid="">
+                        <text>加入</text>
+                </view>
+            </view>
+            <!--第二列  -->
+            
+            <!--第三列  -->
+            
+    </view>
+</view>

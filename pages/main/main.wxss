@@ -1,0 +1,92 @@
+/* pages/main/main.wxss */
+/* 导航对应内容项 */
+.nav_section{
+    width:100%;
+}
+.nav_section_items{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:30rpx;
+    border-bottom:2rpx solid #ddd;
+    position: relative;
+    background-color: white;
+}
+.nav_section_items:active{
+    background:#ddd;
+}
+.nav_section_items .section_image{
+    width:170rpx;
+    height:158rpx;
+}
+.nav_section_items .section_image image{
+    width:100%;
+    height:100%;
+}
+.nav_section_items .section_cont{
+    width:400rpx;
+    font-size:26rpx;
+    color:#a9a9a9;
+}
+.nav_section_items .section_cont view{
+    overflow:hidden;
+    text-overflow: ellipsis;
+    white-space:nowrap;/*多余只显示..*/
+    display: block;
+}
+
+.nav_section_items .section_cont .section_cont_sub{
+    font-size: 30rpx;
+    line-height:60rpx;
+    color:#000;
+    margin-bottom:10rpx;
+}
+.nav_section_items .section_cont .section_cont_price{
+    font-size:28rpx;
+    color:black;
+}
+
+.nav_section_items .section_cont .section_cont_kind{
+    line-height:60rpx;
+    margin-top: 10rpx;
+}
+.nav_section_items .section_book{
+    width:80rpx;
+    height:80rpx;
+    font-size:26rpx;
+    border-radius:100%;
+    background:#d24a58;
+    line-height: 80rpx;
+    color:#fff;
+    text-align: center;
+    margin-top:35rpx;
+}
+.sub_title .sub_image image{
+      width:170rpx;
+      height:158rpx;
+}
+.sub{
+  margin-top: -6px;
+  margin-bottom: 4px;
+}
+.sub_title{
+    font-size:30rpx;
+    display:flex;
+    background-color: white;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:30rpx;
+}
+.sub_title .sub_content{
+    font-size:30rpx;
+    color:black;
+    padding-top: 10px;
+}
+.sub_title .sub_content view{
+    overflow:hidden;
+    text-overflow: ellipsis;
+    display: block;
+}
+.top image{
+  width: 100%;
+}

@@ -1,0 +1,64 @@
+/* pages/healthnotify/healthnotify.wxss */
+.page{
+  width: 100%;
+}
+.page_list{
+   background:white;
+   margin-bottom: 35rpx;
+}
+.page_list .title{
+    padding:20rpx;
+    border-bottom:2rpx solid #ddd;
+    font-size: 40rpx;
+}
+.title .subtitle{
+  font-size: 28rpx;
+  padding-left: 20rpx;
+}
+
+.list_item{
+  padding: 20rpx;
+}
+.list_item .item_title{
+  font-weight: bold;
+}
+.list_item .item_con{
+  padding: 20rpx;
+  font-size: 28rpx;
+}
+
+
+.page_list .bottomClass {
+    width: 100%;
+    display:flex;
+    position:relative;
+    flex-direction: row;
+    justify-content:space-between;
+    background-color: white;
+    padding-top: 100rpx;
+  
+}
+.bottomClass .leftbtn{
+       position: fixed;
+       bottom: 0;
+       width: 300rpx;
+        margin-left: 50rpx;
+
+}
+
+.bottomClass .rightbtn{
+       position: fixed;
+       bottom: 0;
+       width: 300rpx;
+       margin-left: 400rpx;
+       
+     
+
+}
+.leftbtn .nosuit{
+      font-size: 30rpx;
+}
+
+.rightbtn .suit{
+      font-size: 30rpx;
+}

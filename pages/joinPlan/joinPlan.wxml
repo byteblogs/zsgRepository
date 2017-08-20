@@ -1,0 +1,20 @@
+<view class="page">
+ <form bindsubmit="formSubmit" bindreset="formReset">
+  <view class="input_list">
+     <view class="input_items">
+         <view class="item_left">真实姓名:</view>
+         <view class="item_right"><input name="username" type="text" placeholder="请输入真实姓名" bindinput="bindKeyInput"/></view>
+       <view class="aa">{{result}}</view>
+     </view>
+     <view class="input_items">
+        <view class="item_left">身份证:</view>
+         <view class="item_right"> <input name="idcard" type="idcard" maxlength="18" placeholder="请输入身份证,18位数字" bindinput="bindIdcardInput" /></view>
+        <view class="aa">{{result_id}}</view>
+       </view>
+     </view>
+    <view class="btn-area">
+      <button class="submit" formType="submit">免费加入</button>
+      <button class="reset" formType="reset">重置</button>
+  </view>
+  </form>
+</view>

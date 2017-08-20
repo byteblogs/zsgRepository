@@ -1,0 +1,55 @@
+/* pages/intro1/intro1.wxss */
+.page{
+  width: 100%;
+}
+.top image{
+ height: 200rpx;
+}
+.joinData{
+  background: yellow;
+}
+.joinData .joinData_cont{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    padding:15rpx;
+    border-bottom:2rpx solid #ddd;
+    position: relative;
+    font-size:35rpx;
+    color:black;
+}
+
+.select_items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:30rpx;
+    border-bottom:2rpx solid #ddd;
+    position: relative;
+    background-color: white;
+}
+
+.address-add {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.intro{
+  font-size: 40rpx;
+  margin: 2% 0 2% 2%;
+}
+.planTK{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:15rpx;
+    position: relative;
+    font-size:30rpx;
+    background-color:white;
+    padding-bottom: 60px;
+}
+
+.planTK .cont3{
+  margin-right: 5%;
+}

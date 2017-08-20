@@ -1,0 +1,35 @@
+<page>
+  <view class="Container">
+  <view class="sp1"><image src="../images/11.jpg" class="mainIcon"></image> </view>
+
+  <view class="flex-wrp" style="flex-direction:row;display: flex;">
+    <view class="flex-item "><image src="../images/22.png" class="leftIcon"></image></view>
+    <view class="flex-item context"> 互助包含胃癌、肝癌等各种癌症，9元加入互助计划，一人患病，众人分摊</view>
+  </view>
+
+ <navigator url="../apply/apply" hover-class="navigator-hover">
+      <view class="list"  bindtap="item_bind1">
+        <view class="flex-item "><image src="../images/44.png" class="leftIcon"></image></view>
+        <view class="flex-item context"> 互助包含胃癌、肝癌等各种癌症，9元加入互助计划，一人患病，众人分摊</view>
+      </view>
+      </navigator>
+
+    <view class="line"></view>
+ <navigator url="../apply/apply" hover-class="navigator-hover">
+       <view class="list">
+        <view class="flex-item "><image src="../images/55.png" class="leftIcon"></image></view>
+        <view class="flex-item context"> 互助包含胃癌、肝癌等各种癌症，9元加入互助计划，一人患病，众人分摊</view>
+      </view>
+ </navigator>
+   <view class="line"></view>
+      
+      <view class="line"></view>
+
+      <view class="list"  bindtap="item_bind1">
+        <view class="flex-item "><image src="../images/66.png"  class="leftIcon"></image></view>
+        <view class="flex-item context"> 互助包含胃癌、肝癌等各种癌症，9元加入互助计划，一人患病，众人分摊</view>
+      </view>
+    <view class="line"></view>
+     <view class="line"></view>
+</view>
+</page>

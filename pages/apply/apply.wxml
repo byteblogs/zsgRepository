@@ -1,0 +1,12 @@
+<view class="list">
+<view class="item">申请流程</view>
+  
+   <view class="line"></view>
+    <view class="item">1、互助申请</view>
+    <view class="content">拨打客户电话400-222-1888</view>
+    <view class="item">2、事件调查</view>
+    <view class="content">第三方专业公估机构核实后，全平台公示</view>
+    <view class="item">3、直接划款</view>
+      <view class="content">公示通过无异议，从互助金中划款</view>
+    <view class="line"></view>
+</view>

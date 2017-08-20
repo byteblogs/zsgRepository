@@ -1,0 +1,113 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+.line{
+  height: 2rpx;
+  background:darkgrey;
+  margin: 20rpx 30rpx;
+}
+page{
+  min-width: 320px;
+  font: 14px/150% "微软雅黑", Verdana, Arial, Helvetica, sans-serif;
+  color: #222;
+  -webkit-text-size-adjust: none;
+  padding: 0;
+  margin: 0;
+  background-color: #eeeeee;
+}
+.page{
+  min-width: 320px;
+  font: 14px/150% "微软雅黑", Verdana, Arial, Helvetica, sans-serif;
+  color: #222;
+  -webkit-text-size-adjust: none;
+  padding: 0;
+  margin: 0;
+  background-color: #eeeeee;
+}
+.kind-list-item {
+  background-color: #FFFFFF;
+  border-radius: 4rpx;
+  border-bottom:2rpx solid #ddd;
+  overflow: hidden;
+}
+.kind-list-item:first-child {
+  margin-top: 0;
+}
+.kind-list-text{
+  flex: 1;
+}
+.kind-list-img {
+  width: 35rpx;
+  height: 20rpx;
+}
+.kind-list-item-hd {
+  padding: 15rpx;
+  display: flex;
+  align-items: center;
+  transition: opacity .3s;
+}
+.kind-list-item-hd-show {
+  opacity: .2;
+}
+.index-bd .kind-list-item-hd .kind-list-text_right{
+    width:400rpx;
+    font-size:26rpx;
+    color:#a9a9a9;
+    margin-right: 13%;
+} 
+.kind-list-item-bd {
+  height: 0;
+  overflow: hidden;
+}
+.kind-list-item-bd-show {
+  height: auto;
+}
+
+.list_cont{
+  padding-left: 4%;
+  padding-top: 2%;
+  padding-right: 4%;
+  position: relative;
+  background-color: #eeeeee;
+  line-height: 1.41176471;
+  font-size:30rpx;
+}
+/*表格样式  */
+.table {
+  border: 1px solid darkgray;
+}
+.tr {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height: 1.5rem;
+  align-items: center;
+}
+.td {
+   border: 1px solid darkgray;
+    width:40%;
+    justify-content: center;
+    text-align: center;
+}
+.bg-w{
+  background: snow;
+}
+.bg-g{
+  background: #E6F3F9;
+}
+.th {
+  width: 40%;
+  justify-content: center;
+  background: #3366FF;
+  color: #fff;
+  display: flex;
+  height: 1.5rem;
+  align-items: center;
+}

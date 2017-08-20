@@ -1,0 +1,44 @@
+<!--index.wxml-->
+<view class="page">
+    <view  bindtap="bindViewTap" class="userinfo">
+      <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </view>
+
+    <view class="nav_section">
+        <view bindtap="plan_bind"  class="nav_section_items">
+          <view  class="nav_sletion_con">
+            <text>我的互助计划凭证  </text>
+          </view>
+          <view class="nav_section_image">
+            <image src="../images/next.png"></image>
+          </view>
+       </view>
+       <!--2  -->
+        <view bindtap="apply_bind" class="nav_section_items">
+          <view   class="nav_sletion_con">
+            <text>申请互助  </text>
+          </view>
+          <view class="nav_section_image">
+            <image src="../images/next.png"></image>
+          </view>
+       </view>
+    </view>
+
+    
+    <view class="nav_section">
+        <view bindtap="setting_bind" class="nav_section_items">
+          <view   class="nav_sletion_con">
+            <text>设置 </text>
+          </view>
+          <view class="nav_section_image">
+            <image src="../images/next.png"></image>
+          </view>
+       </view>
+    
+    </view>
+  </view>
+
+   <!-- <view  bindtap="setting_bind" class="text">
+      <text class="setting_text">设置</text>
+  </view>  -->

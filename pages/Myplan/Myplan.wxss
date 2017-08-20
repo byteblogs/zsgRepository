@@ -1,0 +1,37 @@
+/* pages/Myplan/Myplan.wxss */
+.list{
+  width: 100%;
+  background-color: white;
+}
+.list_page{
+  margin-bottom: 50rpx;
+}
+
+.list_page .list_items{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:30rpx;
+    border-bottom:2rpx solid #ddd;
+    position: relative;
+    font-size:35rpx;
+    background-color: white;
+}
+
+.list_page .list_item{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    padding:30rpx;
+    position: relative;
+    font-size:35rpx;
+    background-color: white;
+}
+
+.list_item .item{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    position: relative;
+    padding-bottom: 20rpx;
+}

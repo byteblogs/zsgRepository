@@ -1,0 +1,28 @@
+/* pages/intro2/intro2.wxss */
+page{
+  width: 100%;
+  background:white;
+}
+.page{
+    width: 100%;
+    background:white;
+}
+.page_list{
+   width: 100%;
+}
+.page_list .title{
+    padding:30rpx;
+    border-bottom:2rpx solid #ddd;
+    font-size: 40rpx;
+}
+.list_item{
+  width: 100%;
+}
+.list_item .item_title{
+  font-weight: bold;
+  padding: 30rpx;
+}
+.list_item .item_con{
+  padding: 30rpx;
+  font-size: 28rpx;
+}

@@ -1,0 +1,49 @@
+/** wxss **/
+/** 修改默认的navigator点击态 **/
+.navigator-hover {
+    color:blue;
+}
+/** 自定义其他点击态样式类 **/
+.other-navigator-hover {
+    color:red;
+}
+.leftIcon{
+  width: 100px;
+  height: 100px;
+}
+.flex-wrp{
+   margin-bottom: 20px;
+   flex-direction:row;
+   display: flex;
+    background-color:white;
+}
+.flex-item{
+  width: 250rpx;
+  height: 170rpx;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   background-color:white;
+}
+.context{
+  width: 100%;
+  height: 200rpx;
+  font-size: 35rpx;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.list{
+   margin-top: 50rpx;
+   margin-bottom: 50 rpx;
+   flex-direction:row;
+   display: flex;
+   background-color:white;
+   
+}
+.mainIcon{
+  width: 100%;
+}
+page{
+   background-color: #eeeeee;
+}

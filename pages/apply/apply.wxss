@@ -1,0 +1,13 @@
+/* pages/apply/apply.wxss */
+.list{
+  width: 100%;
+  background-color: white;
+}
+.item{
+  padding: 10px;
+}
+.content{
+  color:darkgray;
+  padding-left:40px;
+  font-size: 12px;
+}

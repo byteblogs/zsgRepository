@@ -1,0 +1,50 @@
+{
+  "pages":[
+    "pages/main/main",
+    "pages/mainPage/mainPage",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/Myplan/Myplan",
+    "pages/apply/apply",
+    "pages/intro1/intro1",
+    "pages/intro2/intro2",
+    "pages/healthnotify/healthnotify",
+    "pages/setting/setting",
+    "pages/joinPlan/joinPlan"
+      
+  ],
+  "tabBar": {
+    "color": "#464a56",
+    "selectedColor": "#6595e9",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/main/main",
+        "text": "加入互助",
+        "iconPath":"pages/images/main.png",
+        "selectedIconPath":"pages/images/main.png"
+
+      },
+      {
+        "pagePath": "pages/main/main",
+        "text": "互助公告",
+        "iconPath": "pages/images/main.png",
+        "selectedIconPath": "pages/images/main.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "我的计划",
+        "iconPath": "pages/images/user.png",
+        "selectedIconPath": "pages/images/user.png"
+      }
+    ]
+  },
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "互助计划",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh":false
+  }
+}

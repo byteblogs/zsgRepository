@@ -1,0 +1,53 @@
+/**index.wxss**/
+.userinfo {
+  height: 300rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background:cadetblue;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin-left: 200rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+.nav_section{
+  width: 100%;
+  padding-top: 10px;
+}
+.nav_section_items{
+  border-bottom:2rpx solid #ddd;
+  position: relative;
+  background-color: white;
+  padding-left: 50rpx;
+  padding-bottom: 10px;
+  font-size: 35rpx;
+  color: black;
+  display:flex;
+  flex-direction: row;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.nav_section_image{
+  width: 30rpx;
+  padding-top: 10px;
+  padding-left:90%;
+}
+.nav_section_image image{
+  float:right;
+  width: 50rpx;
+  height: 50rpx;
+}
+.nav_sletion_con{
+    margin-top: 10px;
+    margin-bottom: 20rpx;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+

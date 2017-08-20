@@ -1,0 +1,27 @@
+/* pages/joinPlan/joinPlan.wxss */
+.input_list{
+  width: 100%;
+}
+.input_list .input_items{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:15rpx;
+    border-bottom:2rpx solid #ddd;
+    position: relative;
+    background-color: white;
+}
+.btn-area{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:30rpx;
+    position: relative;
+}
+.btn-area .submit{
+  background: greenyellow;
+}
+.btn-area .reset{
+  background: greenyellow;
+}
+

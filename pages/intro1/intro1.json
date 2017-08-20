@@ -1,0 +1,16 @@
+{
+  "tabBar": {
+    "color": "#464a56",
+    "selectedColor": "#6595e9",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/main/main",
+        "text": "加入互助",
+        "iconPath": "pages/images/main.png",
+        "selectedIconPath": "pages/images/main.png"
+      }
+    ]
+  }
+}
