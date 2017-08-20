@@ -21,14 +21,14 @@
     "list": [
       {
         "pagePath": "pages/main/main",
-        "text": "加入互助",
+        "text": "加入互助1",
         "iconPath":"pages/images/main.png",
         "selectedIconPath":"pages/images/main.png"
 
       },
       {
         "pagePath": "pages/main/main",
-        "text": "互助公告",
+        "text": "互助公告1",
         "iconPath": "pages/images/main.png",
         "selectedIconPath": "pages/images/main.png"
       },
